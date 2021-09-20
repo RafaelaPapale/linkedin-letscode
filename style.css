@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f3ee;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #FFFF;
+	display: flex;
+	justify-content: center;
+}
+
+.head {
+    width: 769px;
+	margin-right: 27px;
+	margin-top: 13px;
+	margin-bottom: 12px;
+	display: flex;
+	position: relative
+}
+
+.logo img {
+    width: 34px;
+    top: 13px;
+    left: 27px;
+}
+
+.search {
+    background: #f3f7ee;
+    border: none;
+    margin-left: 8px;
+    border-radius: 4px;
+    width: 235px;
+    height: 34px;
+    left: 72px;
+    top: 13px;
+}
+
+.search img {
+    width: 11px;
+    height: 11px;
+    top: 12px;
+    left: 54px;
+    bottom: 11px;
+    position: absolute;
+}
+
+.search input {
+    background: #f3f7ee;
+    border: none;
+    margin-top: 10px;
+    margin-left: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14.06px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.options {
+    display: flex;
+}
+
+.options div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 58px;
+}
+
+.options div img {
+    width: 20px;
+    top: 12px;
+    left: 58px;
+    opacity: 50%;
+}
+
+.options div img:hover {
+    opacity: 100%;
+}
+
+.options div p {
+    margin-top: 5px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
+    line-height: 10.72px;
+    color: gray;
+}
+
+.options div p:hover {
+    color: black;
+}
+
+.profile {
+    display: flex;
+    margin-left: 37px;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile div img {
+    top: 10px;
+    bottom: 23.61px;
+    width: 25.39px;
+    height: 25.39px;
+    border-radius: 15px;
+}
+
+.profile div p {
+    margin-top: 2.61px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
+    line-height: 10.72px;
+    color: grey;
+}
+
+.profile div p:hover {
+    color: black;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rambla', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;  
+}
+
+.box {
+    width: 760px;
+	margin-right: 27px;
+	margin-top: 38px;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.capa {
+    width: 100%;
+    height: 135px;
+    left: 27px;
+    transform: translate(-5px);
+    z-index: 2;
+}
+
+.imagem-perfil {
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 31.38px;
+    width: 106.64px;
+    height: 106.64px;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.profile-box {
+    background-color: #FFFF;
+    border-radius: 15px;
+    margin-top: -15px;
+    width: 760px;
+    height: 185px;
+    transform: translate(-19px);
+}
+
+.info h1 {
+    margin-top: 60px;
+    margin-left: 22px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    font-style: inherit;
+}
+
+.info p {
+    margin-top: 5px;
+    margin-left: 22px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 17px;
+    font-weight: 400;
+    width: 360px;
+}
+
+.localizacao {
+    margin-left: 22px;
+    margin-top: 5px;
+    height: 13px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14.69px;
+    font-weight: 400;
+    color: grey;
+}
+
+.botao {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 14px;
+    margin-top: 15px;
+    margin-left: 22px;
+    margin-right: 378px;
+}
+
+.botao button {
+	box-sizing: border-box;
+	border-radius: 12px;
+	height: 21px;
+	font-size: 11px;
+	font-weight: 700;
+    line-height: 13.46px;
+	padding-left: 12px;
+	padding-right: 12px;
+    border: black;
+}
+
+button.azul {
+	color: white;
+	background-color: #0e76a8
+}
+
+button.branco {
+	color: black;
+	background-color: #FFFF;
+	border: solid 1px grey;
+
+}
+
+button.azul:hover {
+	background-color: #006292;
+}
+
+button.branco:hover {
+	border: solid 2px grey;
+	background-color: gainsboro;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    border-radius: 15px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    width: 760px;
+    height: 445px;
+    transform: translate(-19px);
+}
+
+.info-box .title-experiencia {
+    margin-top: 16px;
+    margin-left: 21px;
+    font-style: normal;
+    font-weight: 400;
+    size: 14px;
+    line-height: 17.14px;
+}
+
+.info-box div img {
+    width: 35px;
+    height: 35px;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.text h1 {
+    margin-top: -40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.69px;
+}
+
+.text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.46px;
+}
+
+.text span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.46px;
+    color: grey;
+}
+
+.divisao {
+	width: 680px;
+	height: 1px;
+	position: absolute;
+	margin-top: 5px;
+    margin-left: 80px;
+	background-color: #EBEBEB;
+}
+
+.ex-form {
+    width: 760px;
+	height: 1px;
+	position: absolute;
+	margin-top: 230px;
+    margin-bottom: 40px;
+	background-color: #EBEBEB;
+}
+
+.info-box .title-formacao {
+    margin-top: 32px;
+    margin-left: 21px;
+    font-style: normal;
+    font-weight: 400;
+    size: 14px;
+    line-height: 17.14px;
+}
+
+@media screen and (max-width: 700px) {
+    .head, .box, .profile-box, .info-box {
+        width: 86%;
+    }
+
+    .search{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .options {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .options {
+        margin-left: 124px !important;
+    }
+}
