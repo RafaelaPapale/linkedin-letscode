@@ -346,9 +346,9 @@ button.branco:hover {
     line-height: 17.14px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .head, .box, .profile-box, .info-box {
-        width: 86%;
+        width: 600px;
     }
 
     .search{
@@ -368,13 +368,13 @@ button.branco:hover {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .options {
-        margin-left: 0px !important;
+        margin-left: 10px !important;
     }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
     .options {
         margin-left: 124px !important;
     }
