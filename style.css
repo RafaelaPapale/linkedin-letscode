@@ -246,7 +246,7 @@ button.azul {
 button.branco {
 	color: black;
 	background-color: #FFFF;
-	border: solid 1px grey;
+	border: solid 0.5px grey;
 
 }
 
@@ -255,7 +255,7 @@ button.azul:hover {
 }
 
 button.branco:hover {
-	border: solid 2px grey;
+	border: solid 1.5px grey;
 	background-color: gainsboro;
 	padding-left: 11px;
 	padding-right: 11px;
@@ -346,7 +346,7 @@ button.branco:hover {
     line-height: 17.14px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .head, .box, .profile-box, .info-box {
         width: 86%;
     }
@@ -354,15 +354,27 @@ button.branco:hover {
     .search{
         width: 200px;
     }
+
+    .divisao {
+        width: 86%;
+    }
+
+    .ex-form {
+        width: 100%;
+    }
+
+    .botao {
+        margin-right: 200px;
+    }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .options {
         margin-left: 0px !important;
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
     .options {
         margin-left: 124px !important;
     }
